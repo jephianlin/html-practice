@@ -1,9 +1,44 @@
 body {
     background-color: #F3F3F3;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-nav {
+header {
+    padding-top: 1.25rem;
+}
+
+nav ul {
+    list-style-type: none;
     display: flex;
     gap: 1rem;
+}
+
+nav.up {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding-left: 8.75rem;
+    padding-right: 2.5rem;
+}
+
+nav.up .more {
+    color: #ff764d;
+    margin-right: auto;
+}
+
+nav.up .try {
+    color: blue;
+}
+
+nav.down ul {
+    padding: 1.25rem 2.5rem;
+}
+
+nav.down .about {
+    color: #ff764d;
+}
+
+.separator {
+    background-color: #eee;
+    border-top: 2px solid #eee;
 }
