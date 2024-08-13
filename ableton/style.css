@@ -38,7 +38,40 @@ nav.down .about {
     color: #ff764d;
 }
 
+.page-head {
+    position: relative;
+    min-height: calc(100vh - 120px);
+    margin-left: 133.33px;
+    margin-right: 133.33px;
+    margin-bottom: 133.33px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url("https://ableton-production.imgix.net/about/header.jpg?auto=format&fit=crop&fm=jpg&h=448&ixjsv=1.1.3&w=1333");
+}
+
+.page-head-albeton {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 430px;
+    height: 104px;
+    color: #ff764d;
+    font-size: 100px;
+    margin-top: -52px;
+    margin-left: -215px;
+    text-align: center;
+}
+
+
 .separator {
     background-color: #eee;
     border-top: 2px solid #eee;
+}
+
+
+
+footer {
+    background-color: teal;
+    height: 1em;
 }
