@@ -1,0 +1,29 @@
+.collapsible {
+    background-color: blue;
+}
+
+.collapsible article {
+    display: none;
+}
+
+.collapsible:hover article {
+    display: block;
+}
+
+.click-open #burger-button {
+    display: none;
+}
+
+.click-open .burger {
+    height: 5em;
+    width: 5em;
+    background-color: #d17223;
+}
+
+.click-open .menu {
+    display: none;
+}
+
+.click-open #burger-button:checked ~ .menu {
+    display: block;
+}
